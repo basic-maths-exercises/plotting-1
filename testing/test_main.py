@@ -12,8 +12,9 @@ except:
 import unittest
 from main import *
 
-xvals = np.linspace(0,29,30), 
-line1 = line(xvals,xvals*xvals)
+xvals = np.linspace(0,29,30) 
+yvals = xvals*xvals
+line1 = line(xvals,yvals)
 
 axislabels=["Index", "Square"]
 
